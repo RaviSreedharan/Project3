@@ -52,7 +52,7 @@ def load_contract():
 contract = load_contract()
 
 ################################################################################
-# User Option 1: Add to Blockchain based on user input
+## User Option 1: Add to Blockchain based on user input
 #
 # Create a title for our application using Markdown function in Streamlit
 st.markdown("# Distributed Account Validation Service (DAVS)")
@@ -91,7 +91,7 @@ if st.button("Submit New Account Details"):
     st.markdown("---")
 
 ################################################################################
-# User Option 2: Search/Validate operation - this is the core DAVS functionality
+## User Option 2: Search/Validate operation - this is the core DAVS functionality
 #
 # Define function to search the blockchain for a specific data block based on the first four data fields and return the 'AccountStatus' value
 def search_block(bank_name, branch_name, account_number, account_name):
